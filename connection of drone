@@ -1,2 +1,5 @@
+open a new terminal and run this command 
 cd ~/ardupilot/Tools/autotest
 ./sim_vehicle.py -v ArduCopter -f gazebo-iris --console -I0
+open one more new terminal and run this to open ros 
+roslaunch gazebo_ros empty_world.launch
